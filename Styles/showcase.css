@@ -39,7 +39,7 @@
 }
 
 .showcase-top .logo {
-  width: 160px;
+  width: 100px;
   position: absolute;
   top: 27px;
   left: 40px
@@ -59,14 +59,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 3rem;
   z-index: 2;
 }
 
 .showcase-content h1 {
   width: 40%;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.1;
   margin: 0 0 1rem;
 }
@@ -103,7 +103,7 @@
   position: absolute;
   top: 50px;
   right: 5px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-radius: 5px;
 }
 

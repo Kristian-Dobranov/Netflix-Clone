@@ -39,9 +39,9 @@
 }
 
 .showcase-top .logo {
-  width: 100px;
+  width: 160px;
   position: absolute;
-  top: 20px;
+  top: 27px;
   left: 40px
 }
 .showcase-top a {
@@ -59,7 +59,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 7rem;
   z-index: 2;
 }
 
@@ -101,9 +101,9 @@
 
 .showcase-top .btn-rounded {
   position: absolute;
-  top: 35px;
+  top: 50px;
   right: 5px;
-  font-size: 0.7rem;
+  font-size: 1rem;
   border-radius: 5px;
 }
 

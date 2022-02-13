@@ -1,0 +1,46 @@
+/* Sections [Tabs] */
+.tabs {
+  background-color: var(--dark-color);
+  padding-top: 1rem;
+  border-top: 5px solid #222222;
+  border-bottom: 5px solid #222222;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.tabs p {
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.tabs .container > div{
+padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover{
+    color:white;
+    cursor: pointer;
+}
+
+.tab-border{
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.divider{
+    background-color: var(--dark-color);
+}

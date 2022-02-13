@@ -1,16 +1,13 @@
-:root {
-  --primary-color: #e50914;
-}
 
 .showcase {
   width: 100%;
-  height: 93vh;
+  height: 80vh;
   position: relative;
 }
 
 /* Overlay */
 .showcase::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -18,7 +15,7 @@
   height: 100%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 70px 50px 200px  #000000;
+  box-shadow: inset 70px 50px 200px #000000, inset -70px -50px 200px #000000;
 }
 /* Overlay */
 
@@ -35,20 +32,18 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -1;
   background-repeat: no-repeat;
   background-position: center center;
   object-fit: cover;
+  z-index: -1;
 }
 
 .showcase-top .logo {
-  width: 170px;
+  width: 100px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 20px;
+  left: 40px
 }
-
 .showcase-top a {
   position: absolute;
   top: 50%;
@@ -64,28 +59,27 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 9rem;
-  z-index: 2; 
+  margin-top: 3rem;
+  z-index: 2;
 }
 
 .showcase-content h1 {
+  width: 40%;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.1;
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
 }
 
 .showcase-content p {
-  text-transform: uppercase;
   color: #fff;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.25;
-  margin: 0 0 2rem;
+  margin: 0 0 1.4rem;
 }
 
 /* Buttons */
-
 .btn {
   display: inline-block;
   background-color: var(--primary-color);
@@ -105,7 +99,11 @@
   opacity: 0.9;
 }
 
-.btn-rounded {
+.showcase-top .btn-rounded {
+  position: absolute;
+  top: 35px;
+  right: 5px;
+  font-size: 0.7rem;
   border-radius: 5px;
 }
 
@@ -114,3 +112,4 @@
   padding: 0.8rem 1.3rem;
   text-transform: uppercase;
 }
+/* Buttons */
